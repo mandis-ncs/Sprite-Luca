@@ -1,2 +1,2 @@
-﻿# Sprite1-amanda
-Animação com Sprites utilizando key-frames no Css
+﻿# Sprite-Luca
+Animação com Sprite utilizando key-frames no Css
