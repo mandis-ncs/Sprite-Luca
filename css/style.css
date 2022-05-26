@@ -1,3 +1,49 @@
 body{
-    background-color: black;
+    background-color: rgb(204, 101, 101);
 }
+
+div{
+    
+}
+
+#sprite-luca{
+    background-image: url(../imgs/luca9frames.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: luca 1s steps(9) infinite;
+}
+
+/*
+#sprite-bomb{
+    background-image: url(../imgs/bomb-4.png);
+    width: 275px;
+    height: 2050px;
+    background-size: 1000%;
+    animation: bomb-explosion 1s steps(8) infinite;
+}*/
+
+@keyframes luca {
+   from {background-position: 0px;}
+   to {background-position: -1800px;}
+}
+ 
+/*
+@keyframes bomb-explosion {
+    10% {background-position-x: -75px;}
+    20% {background-position-x: -200px;}
+    30% {background-position-x: -475px;}
+    40% {background-position-x: -750px;}
+    50% {background-position-x: -1055px;}
+    60% {background-position-x: -1275px;}
+    70% {background-position-x: -1600px;}
+    80% {background-position-x: -1875px;}
+    90% {background-position-x: -2050px;}
+    95% {background-position-x: -2255px;}
+    96% {background-position-x: -2575px;}
+    97% {background-position-x: -2800px;}
+    100% {background-position-x: -3000px;}
+
+ }
+*/
