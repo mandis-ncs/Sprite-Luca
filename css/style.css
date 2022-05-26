@@ -1,9 +1,16 @@
 body{
-    background-color: rgb(204, 101, 101);
+    background-image:url(../imgs/waves.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-div{
-    
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline wavy;
+    text-shadow: 0 0 5px blue, 0 0 10px darkturquoise;
+    color: aliceblue;
 }
 
 #sprite-luca{
@@ -12,38 +19,17 @@ div{
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
     animation: luca 1s steps(9) infinite;
+    align-items: center;
+    top:45%;
+    left:42%;
+   
 }
 
-/*
-#sprite-bomb{
-    background-image: url(../imgs/bomb-4.png);
-    width: 275px;
-    height: 2050px;
-    background-size: 1000%;
-    animation: bomb-explosion 1s steps(8) infinite;
-}*/
 
 @keyframes luca {
    from {background-position: 0px;}
    to {background-position: -1800px;}
 }
  
-/*
-@keyframes bomb-explosion {
-    10% {background-position-x: -75px;}
-    20% {background-position-x: -200px;}
-    30% {background-position-x: -475px;}
-    40% {background-position-x: -750px;}
-    50% {background-position-x: -1055px;}
-    60% {background-position-x: -1275px;}
-    70% {background-position-x: -1600px;}
-    80% {background-position-x: -1875px;}
-    90% {background-position-x: -2050px;}
-    95% {background-position-x: -2255px;}
-    96% {background-position-x: -2575px;}
-    97% {background-position-x: -2800px;}
-    100% {background-position-x: -3000px;}
-
- }
-*/
